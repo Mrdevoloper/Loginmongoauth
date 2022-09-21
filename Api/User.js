@@ -4,6 +4,9 @@ const router = express.Router();
 //mongodb user model
 const User = require('../models/User');
 
+//env varibles
+require('dotenv').config();
+
 //password handlar
 const bcrypt = require('bcrypt');
 

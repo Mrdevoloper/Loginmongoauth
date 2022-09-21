@@ -7,6 +7,7 @@ const UserSchema = new Schema(
 		email: String,
 		password: String,
 		dateOfBirth: Date,
+		verified: Boolean
 	},
 	{
 		collection: 'User_collection',
