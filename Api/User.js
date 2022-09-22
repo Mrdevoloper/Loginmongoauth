@@ -4,6 +4,16 @@ const router = express.Router();
 //mongodb user model
 const User = require('../models/User');
 
+
+//mongodb user verification model
+const UserVerification = require('../models/UserVerified');
+
+//email handler
+const nodemailer = require('nodemailer')
+
+//unique string
+const {v4: uuid4} = require('uuid')
+
 //env varibles
 require('dotenv').config();
 

@@ -1,9 +1,12 @@
 {
     "swagger": "2.0",
     "info": {
-        "description":"Node Js Authentification API for mogodb",
-        "version":"2.0.0"
+        "description":" Authentification ",
+        "version":"2.0.0",
+        "title":"Node Js Authentification API for mogodb"
     },
+    "host":"https://auht-lo.herokuapp.com",
+    "basePath": "/",
     "paths": {
         "/user/all": {
             "get": {
@@ -33,7 +36,7 @@
                             }
                           }
                         }
-                      }
+                    }
                 }
             }
         }
