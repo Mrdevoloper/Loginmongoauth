@@ -10,6 +10,13 @@ require('dotenv').config();
 //password handlar
 const bcrypt = require('bcrypt');
 
+//get user
+
+router.get('/all', async(req, res) => {
+	const all = await User.find();
+	res.json(all)
+});
+
 // sign up
 router.post('/signup', (req, res) => {
 	let { name, email, password, dateOfBirth } = req.body;
