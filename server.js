@@ -2,7 +2,7 @@ const express = require('express');
 const { mongo } = require('./config/mongo');
 const app = express();
 const UserRouter = require('./Api/User');
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 5000;
 const swaggerUi = require('swagger-ui-express');
 const options = require('./swagger')
 
