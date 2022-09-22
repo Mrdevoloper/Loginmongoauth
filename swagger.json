@@ -6,7 +6,7 @@
         "title":"Node Js Authentification API for mogodb"
     },
     "host":"https://auht-lo.herokuapp.com",
-    "basePath": "/",
+    "basePath": "/user/api-docs",
     "paths": {
         "/user/all": {
             "get": {
